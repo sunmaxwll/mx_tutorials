@@ -88,7 +88,7 @@ catkin_make
 cd ~/catkin_ws/devel/share/mx_tutorials/msg
 
 ls -lh
-
+```
 total 28K
 -rw-rw-r-- 1 aicuijie aicuijie 141 Mar 12 02:22 TestActionFeedback.msg
 -rw-rw-r-- 1 aicuijie aicuijie 130 Mar 12 02:22 TestActionGoal.msg
@@ -97,10 +97,10 @@ total 28K
 -rw-rw-r-- 1 aicuijie aicuijie  99 Mar 12 02:22 TestFeedback.msg
 -rw-rw-r-- 1 aicuijie aicuijie 100 Mar 12 02:22 TestGoal.msg
 -rw-rw-r-- 1 aicuijie aicuijie 107 Mar 12 02:22 TestResult.msg
-
+```
 ## 使用rosmsg list | grep mx_tutorials查看在ROS中的msg 
 rosmsg list | grep mx_tutorials 
-
+```
 mx_tutorials/TestAction
 mx_tutorials/TestActionFeedback
 mx_tutorials/TestActionGoal
@@ -108,7 +108,7 @@ mx_tutorials/TestActionResult
 mx_tutorials/TestFeedback
 mx_tutorials/TestGoal
 mx_tutorials/TestResult
-
+```
 # 编写一个actionlib服务端 
 
 * 复制一份roswiki的[Fibonacci 服务端例程](https://wiki.ros.org/actionlib_tutorials/Tutorials/SimpleActionServer(ExecuteCallbackMethod)) 
